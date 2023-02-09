@@ -9,6 +9,7 @@
 }
 
 :root {
+	--index: calc(1vw + 1vh);
 	--bg-color: #2a2a2a;
 	--second-bg-color: #202020;
 	--text-color: #fff;
@@ -121,7 +122,7 @@ section {
 }
 
 .home-text h1 {
-	font-size: var(--big-font);
+	font-size: calc(var(--index)) * 8;
 	font-weight: 700;
 	color: var(--text-color);
 	line-height: 1.1;
@@ -265,8 +266,8 @@ header.sticky {
 .box {
 	background: var(--bg-color);
 	padding: 35px 45px;
-	border-radius: 8px;
-	transition: all;
+	border-radius: 18px;
+	transition: .3s;
 }
 
 .s-icons i {
@@ -306,7 +307,7 @@ header.sticky {
 }
 
 .box:hover {
-	transform: translateY(-8px);
+	transform: scale(1.03);
 	cursor: pointer;
 }
 
@@ -321,7 +322,7 @@ header.sticky {
 .row {
 	position: relative;
 	overflow: hidden;
-	border-radius: 8px;
+	border-radius: 20px;
 	cursor: pointer;
 }
 
