@@ -554,15 +554,18 @@ form textarea {
 	.about {
 		grid-template-columns: 1fr;
 	}
+
 	.about-img {
 		text-align: center;
 		order: 2;
 	}
+
 	.about-img img {
 		width: 100%;
 		height: auto;
 		min-width: 100%;
 	}
+
 	.contact {
 		grid-template-columns: 1fr;
 	}
@@ -572,6 +575,7 @@ form textarea {
 	#menu-icon {
 		display: block;
 	}
+
 	.navlist {
 		position: absolute;
 		top: -1000px;
@@ -583,6 +587,7 @@ form textarea {
 		text-align: left;
 		transition: all .45s ease;
 	}
+
 	.navlist a {
 		display: block;
 		margin: 17px;
@@ -590,12 +595,15 @@ form textarea {
 		transition: all .45s ease;
 		color: var(--text-color);
 	}
+
 	.navlist a:hover {
 		color: var(--main-color);
 	}
+
 	.navlist a.active {
 		color: var(--text-color);
 	}
+
 	.navlist.open {
 		top: 100%;
 	}
